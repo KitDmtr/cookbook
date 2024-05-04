@@ -1,0 +1,46 @@
+body
+{
+    background-image: url(_img/beige1.jpg);  
+}
+.mainBox a img {
+    width: 200px;
+    border: 2px solid;
+    border-radius: 25%;
+    border-color: black;
+    box-shadow: 0 6px 10px rgb(0, 0, 0)
+
+}
+.mainBox {
+    margin-left: 363px;
+    margin-top: 50px;
+    text-align: center;
+}
+.menu li {
+    float: left;
+    margin: 20px;
+    list-style: none;
+    
+}
+a button {
+    width: 150px; 
+    height: 50px;
+    background-color: lightcoral; 
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+h1 {
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 80px; font
+}
+.txtBox {
+    display: inline-block;  /* Make the element behave like an inline element but occupy space */
+    padding: 5px;          /* Add some padding for spacing */
+    background-color: lightcoral;
+    border: 2px solid;
+    border-radius: 10px;
+}
